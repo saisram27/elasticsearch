@@ -1,0 +1,9 @@
+---
+clusterName: "elasticsearch"
+nodeGroup: "master"
+roles:
+  master: "true"
+  ingest: "false"
+  data: "false"
+replicas: 3
+

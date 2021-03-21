@@ -1,0 +1,10 @@
+---
+clusterName: "elasticsearch"
+nodeGroup: "client"
+roles:
+  master: "false"
+  ingest: "false"
+  data: "false"
+replicas: 3
+service:
+  type: "LoadBalancer"
